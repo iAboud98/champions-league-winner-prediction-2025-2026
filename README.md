@@ -226,18 +226,27 @@ Scenario workflow:
 
 ---
 
-## ⚔️ Example Predictions
+## ⚔️ Predictions
 
-### Multi-row simulation output
+### Quarterfinal simulation output
 
-| team1 | team2 | home_win_prob | predicted_result |
+| team1 | team2 | team1_win_prob | predicted_result |
+|---|---|---:|---|
+| Barcelona | Atletico | 0.444 | Atletico |
+| Arsenal | Sporting | 0.532 | Arsenal |
+| PSG | Liverpool | 0.334 | Liverpool |
+| Real Madrid | Bayern | 0.479 | Bayern |
+
+### Semifinal simulation output
+
+| team1 | team2 | team1_win_prob | predicted_result |
 |---|---|---:|---|
 | Atletico | Arsenal | 0.434 | Arsenal |
 | Liverpool | Bayern | 0.410 | Bayern |
 
-### Single-row simulation output
+### Final simulation output
 
-| team1 | team2 | home_win_prob | predicted_result |
+| team1 | team2 | team1_win_prob | predicted_result |
 |---|---|---:|---|
 | Arsenal | Bayern | 0.455 | Bayern |
 
